@@ -1,0 +1,14 @@
+GET http://localhost:5000/movies
+
+###
+GET http://localhost:5000/movies/2
+
+###
+POST http://localhost:5000/movies
+Content-Type: application/json
+
+{"title":"The Batman",
+"director":"Matt Reeves",
+"year":"2022"
+}
+
